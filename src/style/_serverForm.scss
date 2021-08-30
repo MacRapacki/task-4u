@@ -1,0 +1,103 @@
+.formWrapper {
+  width: 100%;
+  max-width: 520px;
+  height: 705px;
+  background-color: rgba(251, 251, 251, 0.55);
+  padding: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+
+  &_title {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  &_title span {
+    color: $blue-primary;
+  }
+
+  &_subtitle {
+    color: $subtext-color;
+    margin-bottom: 35px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 35px;
+
+    label {
+      font-size: 13px;
+      font-weight: 600;
+      color: $subtext-color;
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 100%;
+      max-width: 300px;
+      height: 38px;
+      padding: 6px 12px;
+      border-radius: 3px;
+      border: $border-color;
+      font-size: 16px;
+      margin-bottom: 30px;
+
+      &:focus {
+        outline: none;
+        border: 1px solid blue;
+      }
+    }
+
+    .formTerms {
+      width: 100%;
+      max-width: 300px;
+      height: 19px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 35px;
+
+      input {
+        width: 13px;
+        height: 13px;
+        margin: 0 3px 0 0;
+      }
+
+      label {
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin: 0;
+      }
+      label a {
+        text-decoration: none;
+        cursor: pointer;
+        color: $blue-primary;
+      }
+    }
+
+    .formButton {
+      width: 180px;
+      height: 46px;
+      border-radius: 24px;
+      font-weight: bold;
+      background-color: $blue-primary;
+      color: white;
+      border: none;
+      letter-spacing: 1px;
+      font-size: 16px;
+    }
+  }
+
+  .provider {
+    font-size: 12px;
+    color: $subtext-color;
+    font-style: italic;
+    & a {
+      text-decoration: none;
+
+      color: $blue-primary;
+    }
+  }
+}
