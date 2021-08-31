@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/task-4u/static/css/main.78db52d4.chunk.css",
+    "main.js": "/task-4u/static/js/main.0601d9f6.chunk.js",
+    "main.js.map": "/task-4u/static/js/main.0601d9f6.chunk.js.map",
+    "runtime-main.js": "/task-4u/static/js/runtime-main.51846422.js",
+    "runtime-main.js.map": "/task-4u/static/js/runtime-main.51846422.js.map",
+    "static/js/2.6b1e01c0.chunk.js": "/task-4u/static/js/2.6b1e01c0.chunk.js",
+    "static/js/2.6b1e01c0.chunk.js.map": "/task-4u/static/js/2.6b1e01c0.chunk.js.map",
+    "static/js/3.b7797950.chunk.js": "/task-4u/static/js/3.b7797950.chunk.js",
+    "static/js/3.b7797950.chunk.js.map": "/task-4u/static/js/3.b7797950.chunk.js.map",
+    "index.html": "/task-4u/index.html",
+    "static/css/main.78db52d4.chunk.css.map": "/task-4u/static/css/main.78db52d4.chunk.css.map",
+    "static/js/2.6b1e01c0.chunk.js.LICENSE.txt": "/task-4u/static/js/2.6b1e01c0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/task-4u/static/media/bg-white.8f181c0d.png",
+    "static/media/lock.8df9d99b.svg": "/task-4u/static/media/lock.8df9d99b.svg",
+    "static/media/logo.c9a436ec.png": "/task-4u/static/media/logo.c9a436ec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51846422.js",
+    "static/js/2.6b1e01c0.chunk.js",
+    "static/css/main.78db52d4.chunk.css",
+    "static/js/main.0601d9f6.chunk.js"
+  ]
+}
