@@ -1,0 +1,47 @@
+.questionOverlay {
+  width: 100%;
+  max-width: 1500px;
+  display: grid;
+  place-items: center;
+  @include breakpoint(small) {
+    width: 40%;
+  }
+  .questionWrapper {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint(small) {
+      max-width: 1000px;
+    }
+
+    .question_title {
+      margin-bottom: 15px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+
+      &.active {
+        cursor: unset;
+      }
+    }
+
+    .answer {
+      max-height: 0;
+      font-size: 16px;
+      color: $subtext-color;
+      line-height: 1.8;
+      overflow: hidden;
+      transition: 1s linear;
+
+      &.active {
+        max-height: 500px;
+        transition: max-height 1s linear;
+      }
+    }
+  }
+}

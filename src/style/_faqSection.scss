@@ -1,0 +1,103 @@
+.faq {
+  width: 100%;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 15px 80px 15px;
+
+  @include breakpoint(small) {
+    align-items: flex-start;
+  }
+
+  &_title {
+    margin-bottom: 24px;
+    text-align: center;
+    width: 100%;
+  }
+
+  &_buttons-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding: 40px 20px 25px 20px;
+
+    @include breakpoint(small) {
+      width: 40%;
+      flex-direction: column;
+      max-width: 450px;
+      justify-content: flex-start;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 90%;
+      height: 2px;
+      background-color: #eee;
+      bottom: 0;
+
+      @include breakpoint(small) {
+        display: none;
+      }
+    }
+
+    .faq_button {
+      position: relative;
+      height: 40px;
+      font-size: 16px;
+      padding: 15px;
+      border-radius: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 8px;
+      text-align: center;
+
+      &::after {
+        opacity: 0;
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: $blue-primary;
+        right: 0;
+        top: 50%;
+        margin-left: 15px;
+        transform: translateX(150px);
+        transition: 0.4s linear;
+      }
+
+      @include breakpoint(small) {
+        justify-content: flex-start;
+        width: 100%;
+      }
+
+      &.active {
+        color: $blue-primary;
+        position: relative;
+
+        &::after {
+          @include breakpoint(small) {
+            transform: translateX(0);
+            transition: 0.4s linear;
+            opacity: 1;
+            width: 25%;
+          }
+        }
+
+        &:focus {
+          border: 1px solid $blue-primary;
+        }
+      }
+    }
+  }
+}

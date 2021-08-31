@@ -6,13 +6,25 @@
       rgba(255, 255, 255, 0.5)
     ),
     url("../images-svg/bg-white.png");
-  background-attachment: fixed;
+
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   padding: 15px;
+
+  @include breakpoint(small) {
+    justify-content: space-around;
+    padding: 15px 60px;
+  }
+
+  @include breakpoint(medium) {
+    padding: 15px 110px;
+  }
+  @include breakpoint(Xlarge) {
+    padding: 15px 250px;
+  }
 }

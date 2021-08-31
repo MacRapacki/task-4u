@@ -15,7 +15,7 @@ const InfoCard = () => {
         <li className="card_list_item">Radio Player & Page</li>
         <li className="card_list_item">LiveChat Support</li>
         <li className="card_list_item">
-          <a href="#faq" className="card_list_link">
+          <a href="#faqScroll" className="card_list_link">
             and more...
           </a>
         </li>
