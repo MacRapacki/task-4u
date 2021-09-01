@@ -1,3 +1,28 @@
+# Interview-task
+* 
+
+![task](https://user-images.githubusercontent.com/35898867/130321613-b892c4f6-1135-4c7a-b155-395d44c45cb3.png)
+
+
+
+This is a interview task. My task was to recreate [THIS](https://freeshoutcast.com/) website using react.
+
+* Check out my work: [Demo](https://macrapacki.github.io/task-4u/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
