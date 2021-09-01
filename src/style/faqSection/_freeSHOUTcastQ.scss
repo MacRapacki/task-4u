@@ -24,6 +24,7 @@
       font-size: 14px;
       font-weight: bold;
       cursor: pointer;
+      color: $question-color;
 
       &.active {
         cursor: unset;
@@ -37,10 +38,36 @@
       line-height: 1.8;
       overflow: hidden;
       transition: 1s linear;
+      margin-bottom: 10px;
 
       &.active {
-        max-height: 500px;
+        max-height: 5500px;
         transition: max-height 1s linear;
+      }
+
+      .stepsImg {
+        width: 100%;
+        max-height: 500px;
+        margin: 10px 0;
+      }
+      .steps {
+        margin-top: 20px;
+        color: $subtext-color;
+        white-space: pre-line;
+
+        & span {
+          font-weight: bold;
+          color: $subtext-color;
+        }
+
+        & a {
+          text-decoration: none;
+          color: $blue-primary;
+
+          &:hover {
+            color: black;
+          }
+        }
       }
     }
   }

@@ -1,2 +1,4 @@
-@import "./variables", "./general", "./breakpoints", "./navbar", "./mainSection",
-  "./infoCard", "./serverForm", "./faqSection", "./footer", "./freeSHOUTcastQ";
+@import "./variables", "./general", "./breakpoints", "./layout/navbar",
+  "./mainSection/mainSection", "./mainSection/infoCard",
+  "./mainSection/serverForm", "./faqSection/faqSection", "./layout/footer",
+  "./faqSection/freeSHOUTcastQ", "./mainSection/scrollDownLink";
