@@ -1,7 +1,6 @@
 # Interview-task
 * 
 
-![task](https://user-images.githubusercontent.com/35898867/130321613-b892c4f6-1135-4c7a-b155-395d44c45cb3.png)
 
 
 
