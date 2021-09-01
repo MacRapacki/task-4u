@@ -1,5 +1,5 @@
 # Interview-task
-* 
+
 
 
 
@@ -7,15 +7,6 @@
 This is a interview task. My task was to recreate [THIS](https://freeshoutcast.com/) website using react.
 
 * Check out my work: [Demo](https://macrapacki.github.io/task-4u/)
-
-
-
-
-
-
-
-
-
 
 
 
