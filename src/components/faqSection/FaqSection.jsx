@@ -20,7 +20,7 @@ const FaqSection = () => {
   };
 
   return (
-    <section className="faq" id="faqScroll">
+    <section className="faq">
       <h2 className="faq_title">Frequently Asked Questions:</h2>
       <div className="faq_buttons-wrapper">
         {buttonsAndContent.map((item, index) => {
