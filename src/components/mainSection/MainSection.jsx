@@ -4,12 +4,12 @@ import InfoCard from "./InfoCard";
 import ServerForm from "./ServerForm";
 import ScrollDownLink from "./ScrollDownLink";
 
-const MainSection = () => {
+const MainSection = (props) => {
   return (
     <section className="section">
       <InfoCard />
       <ServerForm />
-      <ScrollDownLink />
+      <ScrollDownLink faqRef={props.faqRef} />
     </section>
   );
 };
